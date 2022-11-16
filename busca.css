@@ -1,0 +1,212 @@
+body{
+	margin: 0;
+	width: 99%;
+	height: 90vh;
+}
+
+#topo{
+	width: 101%;
+	height: 20px;
+	background-color: black;
+}
+
+#menu{
+	width: 98.9%;
+	height: 55px;
+	padding: 1%;
+	border: solid 0.5px gray;
+	display: grid;
+}
+
+#log{
+	display: none;
+}
+
+#busc{
+	display: none;
+}
+
+#logo{
+	width: 10%;
+	text-align: center;
+	display: inline-table;
+	grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#busca{
+	margin-left: 50%;
+	text-align: right;
+	display: inline-table;
+	background-color: white;
+	border: solid 0.5px black;
+	grid-column-start: 4;
+    grid-column-end: 19;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#menu .txtBusca{
+	float: left;
+  	background-color: transparent;
+  	padding-left: 0.5%;
+	padding-top: 1%;
+  	font-style: italic;
+ 	font-size: 18px;
+ 	border: none;
+ 	width: 90%;
+}
+
+#busca img{
+	border: none;
+	background-color: transparent;
+	padding: 0.5%;
+}
+
+#login{
+	width: 5%;
+	text-align: center;
+	display: inline-table;
+	grid-column-start: 20;
+    grid-column-end: 21;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#carrinho{
+	width: 5%;
+	text-align: center;
+	display: inline-table;
+	grid-column-start: 21;
+    grid-column-end: 22;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#pesquisado{
+	width: 92%;
+	display: inline-table;
+	padding: 4%;
+}
+
+.prod {
+	width: 22.5%;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	border: solid 0.5px gray;
+	margin: 1%;
+}
+
+.comprar{
+	width: 98%;
+	background-color: black;
+	color: white;
+	border: solid 5px black;
+	margin: 2px;
+	text-align: center;
+} 
+
+.prod figcaption {
+	background-color: gray;
+	background-color: rgba(10,23,55,0.5);
+	position: absolute;
+	top: 25px;
+	right: 215px;
+	font-size: 20px;
+	color: black;
+}
+
+.imagem{
+	width: 98%;
+}
+
+
+@media (max-width: 600px) {
+	#menu{
+		height: 95px;
+	}
+	#busca{
+		display: none;
+	}
+	#login{
+		display: none;
+	}
+	#log{
+		width: 5%;
+		text-align: center;
+		display: inline-table;
+		grid-column-start: 2;
+		grid-column-end: 4;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+	#logo{
+		text-align: center;
+		display: inline-table;
+		grid-column-start: 12;
+		grid-column-end: 13;
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+	#busc{
+		margin-top: 10px;
+		text-align: right;
+		display: inline-table;
+		background-color: white;
+		border: solid 0.5px black;
+		grid-column-start: 1;
+		grid-column-end: 22;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+	#menu .txtBusca{
+		width: 92%;
+   	}
+	#busc img{
+		border: none;
+		background-color: transparent;
+		padding: 0.5%;
+	}
+	.prod {
+		width: 30.5%;
+	}
+}
+
+@media (max-width: 770px) and (min-width: 700px){
+	#menu .txtBusca{
+		 width: 89%;
+	}
+}
+
+@media (max-width: 700px) and (min-width: 650px){
+	#menu .txtBusca{
+		 width: 88%;
+	}
+}
+
+@media (max-width: 650px) and (min-width: 600px){
+	#menu .txtBusca{
+		 width: 87%;
+	}
+}
+
+@media (max-width: 650px) and (min-width: 350px){
+	#menu .txtBusca{
+		width: 80%;
+	}
+}
+
+@media (max-width: 350px){
+	#menu .txtBusca{
+		 width: 85%;
+	}
+}
+
+@media (max-width: 150px){
+	#menu .txtBusca{
+		 width: 75%;
+	}
+}

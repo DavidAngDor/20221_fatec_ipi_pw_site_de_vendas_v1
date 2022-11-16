@@ -1,0 +1,28 @@
+create database pp2;
+
+use pp2;
+
+create table cliente(
+	codigo bigint primary key auto_increment,
+	nome varchar(100),
+	cpf varchar(20),
+	telefone number(20),
+	email varchar(100),
+	senha varchar(100)
+);
+
+create table produto(
+	codigo bigint primary key auto_increment,
+	titulo varchar(100),
+	descritivo text,
+	valor decimal(18,2),
+	qtd int,
+	categoria varchar(100)
+);
+
+create table cesta (
+	codigo bigint PRIMARY KEY AUTO_INCREMENT,
+	codigoProduto bigint,
+	qtd int,
+	sessionId varchar(200)
+)

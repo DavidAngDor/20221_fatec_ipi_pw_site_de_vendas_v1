@@ -1,0 +1,49 @@
+body {
+	color: black;
+	font-family: arial;
+}
+
+section{
+	text-align: center;
+	display: flex;
+}
+
+.box {
+	width: 100%;
+	margin-top: 15vh;
+	text-align: center;
+	padding: 10px;
+}
+
+b{
+	font-size: 20px;
+}
+
+p{
+	font-size: 15px;
+	color: gray;
+}
+
+input{
+	color: black;
+	font-family: arial;
+	border: solid 1px black;
+	border-radius: 4px;
+	margin: 5px;
+	padding: 10px;
+}
+
+button{
+	background-color: black;
+	color: white;
+	border: solid 5px black;
+	width: 375px;
+	height: 40px;	
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+form a{
+	font-size: 10px;
+	color: gray;
+}

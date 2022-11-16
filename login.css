@@ -1,0 +1,45 @@
+body {
+	color: black;
+	font-family: arial;
+}
+
+section{
+	text-align: center;
+	display: flex;
+}
+
+.box {
+	width: 100%;
+	margin-top: 10vh;
+	text-align: center;
+	padding: 10px;
+}
+
+img{
+	margin-top: 6vh;
+}
+
+input{
+	color: black;
+	border: solid 1px black;
+	margin-top: 2vh;
+	padding: 10px;
+	font-family: arial;
+	border-radius: 4px;
+	display: table-column;
+}
+
+a{
+	font-size: 10px;
+	color: gray;
+}
+
+button{
+	width: 375px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	border: solid 5px black;
+	border-radius: 4px;
+	font-weight: bold;
+}
